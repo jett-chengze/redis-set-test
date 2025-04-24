@@ -16,4 +16,5 @@ func rdb_set(rdb *redis.Client, ctx context.Context) {
 	if err != nil {
 		log.Fatalf("redis sadd set1 error: %s", err)
 	}
+	log.Printf("redis sadd set1 set_Val1 set_Val2 set1_Val3")
 }

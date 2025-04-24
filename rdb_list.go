@@ -12,4 +12,5 @@ func rdb_list(rdb *redis.Client, ctx context.Context) {
 	if err != nil {
 		log.Fatalf("redis rpush list1 error: %s", err)
 	}
+	log.Printf("redis rpush list1 list_Val1 list1_Val2 list1_Val3")
 }

@@ -12,4 +12,5 @@ func rdb_sorted_set(rdb *redis.Client, ctx context.Context) {
 	if err != nil {
 		log.Fatalf("redis zadd sort_set1 error: %s", err)
 	}
+	log.Println("redis zadd sort_set1 1 sort_set1_Val1 2 sort_set1_Val2")
 }

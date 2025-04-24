@@ -12,4 +12,5 @@ func rdb_string(rdb *redis.Client, ctx context.Context) {
 	if err != nil {
 		log.Fatalf("redis set string1 error: %s", err)
 	}
+	log.Printf("redis set string1")
 }

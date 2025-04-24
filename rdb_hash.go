@@ -12,4 +12,5 @@ func rdb_hash(rdb *redis.Client, ctx context.Context) {
 	if err != nil {
 		log.Fatalf("redis hset hash1 error: %s", err)
 	}
+	log.Printf("redis hset hash1 field1 hash1_Val1 field2 hash1_Val2")
 }
